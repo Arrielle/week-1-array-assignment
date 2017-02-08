@@ -36,7 +36,7 @@ var wordArray = ["DON'T", "WANT", "THESE", "WORDS", "I", "like", "to", "eat", "c
 for (var i = 0; i < wordArray.length; i++) {
   if (i >= 4) {
   // console.log(stringResult);
-  stringResult = stringResult + " " + wordArray[i]; //adding word to string result but there is a space in front now.
+  stringResult = stringResult + wordArray[i] + " "; //adding word to string result but there is a space at the end. Need another if statement.
 } else {
   i++;
 }
