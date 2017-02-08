@@ -20,7 +20,11 @@ myFunction(["DON'T", "WANT", "THESE", "WORDS", "I", "like", "to", "eat", "cake."
 function myFunction(array, num){
   for (var i = 0; i < array.length; i++) {
     if (i >= num){
-      console.log(array[i]);
+      //console.log(array[i]);
+      var arrayString = array.substring(num + 1, string.length);
     }
   }
 }
+
+
+
