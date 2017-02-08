@@ -21,16 +21,16 @@ Hi There!
 To view the code that solves this problem, open the client.js file inside of a text editor.
 
 To view the results of the javascript code, follow these steps:
-Step 1: Open the index.html file in a browswer.
-Step 2: Right Click and Inspect
-Step 3: Click the console tap to view the results.
+-Step 1: Open the index.html file in a browswer.
+-Step 2: Right Click and Inspect
+-Step 3: Click the console tap to view the results.
 
 ##FILES INCLUDED
 
-index.html
-stylesheet.css
-client.js
-README.md
+-index.html
+-stylesheet.css
+-client.js
+-README.md
 
 ##AUTHOR
 
