@@ -1,0 +1,15 @@
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50;
+}
+
+#title {
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+  padding: 20px;
+}
