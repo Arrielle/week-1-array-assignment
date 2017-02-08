@@ -27,10 +27,10 @@ Step 3: Click the console tap to view the results.
 
 ##FILES INCLUDED
 
-index.html
-stylesheet.css
-client.js
-README.md
+*index.html
+*stylesheet.css
+*client.js
+*README.md
 
 ##AUTHOR
 
