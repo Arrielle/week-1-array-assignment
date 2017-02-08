@@ -29,18 +29,18 @@
 
 //Working through with the group - 
 
-var stringResult = ''; //an empty string
 var wordArray = ["DON'T", "WANT", "THESE", "WORDS", "I", "like", "to", "eat", "cake."];
+var myNum = 4
 
 
-for (var i = 0; i < wordArray.length; i++) {
-  if (i >= 4) {
+function myFunction(wordArray, num) {
+  var stringResult = '';
+  for (var i = num; i < wordArray.length; i++) {
+    stringResult = stringResult + wordArray[i] + " ";
+  }
   // console.log(stringResult);
-  stringResult = stringResult + wordArray[i] + " "; //adding word to string result but there is a space at the end. Need another if statement.
-} else {
-  i++;
-}
 }
 
-console.log(stringResult);
+var arrayString = myFunction(myArray, 4);
+console.log(arrayString);
 
