@@ -38,7 +38,7 @@ function myFunction(wordArray, num) {
   for (var i = num; i < wordArray.length; i++) {
     stringResult = stringResult + wordArray[i] + " ";
   }
-  // console.log(stringResult);
+  return stringResult;
 }
 
 var arrayString = myFunction(myArray, 4);
